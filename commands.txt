@@ -1,0 +1,28 @@
+localhost:~# mkdir /home/animals
+localhost:~# mkdir -p /home/animals/dogs
+localhost:~# mkdir -p /home/animals/cats
+localhost:~# mkdir -p /home/animals/fish
+localhost:~# touch /home/animals/dogs/pluto
+localhost:~# touch /home/animals/cats/garfield
+localhost:~# touch /home/animals/fish/nemo
+localhost:~# touch /tmp/adam
+localhost:~# mkdir /home/humans
+localhost:~# cp /tmp/adam /home/humans
+localhost:~# touch /tmp/evA
+localhost:~# mv /tmp/evA /opt/eve
+localhost:~# mv /opt/eve /home/humans/eve
+localhost:~# tree /home
+/home
+├── animals
+│   ├── cats
+│   │   └── garfield
+│   ├── dogs
+│   │   └── pluto
+│   └── fish
+│       └── nemo
+└── humans
+    ├── adam
+    └── eve
+ 
+5 directories, 5 files
+
