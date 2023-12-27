@@ -1,0 +1,28 @@
+Welcome to JS/Linux (i586)
+ 
+Use 'vflogin username' to connect to your account.
+You can create a new account at https://vfsync.org/signup .
+Use 'export_file filename' to export a file to your computer.
+Imported files are written to the home directory.
+ 
+localhost:~# mkdir -p /root/test3/newfolder && touch /root/test3/newfolder/myfil
+e.txt && df -h >> /root/test3/newfolder/myfile.txt
+localhost:~# ls -la | head -9 >> /root/test3/newfolder/myfile.txt
+localhost:~# tail -3 /etc/group | wc | awk '{print $3}' >> /root/test3/newfolder
+/myfile.txt
+localhost:~# cat /root/test3/newfolder/myfile.txt
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+tmpfs                    91.4M      8.0K     91.4M   0% /run
+none                     91.4M         0     91.4M   0% /dev/shm
+total 44
+drwxr-xr-x    6 root     root           259 Jan  9  2021 .
+drwxrwxrwx   21 root     root           461 Dec 27 16:46 ..
+-rw-------    1 root     root           172 Dec 27 16:46 .ash_history
+drwx------    3 root     root            61 Jul  5  2020 .cache
+drwx------    5 root     root           124 Jul  5  2020 .mozilla
+drwxr-xr-x    4 root     root           202 Jul  6  2020 .wine
+-rw-r--r--    1 root     root           114 Jul  5  2020 bench.py
+-rw-r--r--    1 root     root            76 Jul  3  2020 hello.c
+42
