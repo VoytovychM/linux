@@ -1,3 +1,8 @@
+localhost:~# mkdir -p /root/test3/newfolder && touch /root/test3/newfolder/myfile.txt
+localhost:~# df -h > /root/test3/newfolder/myfile.txt
+localhost:~# ls -la /root/ | head -9 >> /root/test3/newfolder/myfile.txt
+localhost:~# cat /etc/group | tail -3 | wc -m >> test3/newfolder/myfile.txt
+localhost:~# vi /root/test3/newfolder/myfile.txt
 Filesystem                Size      Used Available Use% Mounted on
 /dev/root                 4.9G      2.3G      2.6G  47% /
 devtmpfs                 91.3M         0     91.3M   0% /dev
