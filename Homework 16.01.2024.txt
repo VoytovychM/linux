@@ -8,13 +8,13 @@ Filesystem                Size      Used Available Use% Mounted on
 devtmpfs                 91.3M         0     91.3M   0% /dev
 tmpfs                    91.4M      8.0K     91.4M   0% /run
 none                     91.4M         0     91.4M   0% /dev/shm
-total 44
-drwxr-xr-x    6 root     root           259 Jan  9  2021 .
-drwxrwxrwx   21 root     root           461 Jan 17 18:14 ..
--rw-------    1 root     root           176 Jan 17 18:14 .ash_history
-drwx------    3 root     root            61 Jul  5  2020 .cache
-drwx------    5 root     root           124 Jul  5  2020 .mozilla
-drwxr-xr-x    4 root     root           202 Jul  6  2020 .wine
+total 68
+drwxrwxrwx   21 root     root           461 Jan 24 13:32 .
+drwxrwxrwx   21 root     root           461 Jan 24 13:32 ..
+-rw-------    1 root     root           905 Jun 24  2020 .ash_history
+-rw-rw-rw-    1 root     root             0 Jan 24 13:31 .fscmd
+drwxr-xr-x    2 root     root           297 Jul  5  2020 .preload2
+drwxr-xr-x    2 root     root          2089 Jan  9  2021 bin
 ~
 ~
 ~
@@ -32,3 +32,4 @@ drwxr-xr-x    4 root     root           202 Jul  6  2020 .wine
 ~
 ~
 ~
+
