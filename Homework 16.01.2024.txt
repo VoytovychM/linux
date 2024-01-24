@@ -1,6 +1,6 @@
 localhost:~# mkdir -p /root/test3/newfolder && touch /root/test3/newfolder/myfile.txt
 localhost:~# df -h > /root/test3/newfolder/myfile.txt
-localhost:~# ls -la /root/ | head -9 >> /root/test3/newfolder/myfile.txt
+localhost:~# ls -la / | head -9 >> /root/test3/newfolder/myfile.txt
 localhost:~# cat /etc/group | tail -3 | wc -m >> test3/newfolder/myfile.txt
 localhost:~# vi /root/test3/newfolder/myfile.txt
 Filesystem                Size      Used Available Use% Mounted on
