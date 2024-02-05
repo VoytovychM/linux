@@ -1,0 +1,30 @@
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+localhost:/tmp# df -h | head -3 > file.txt
+localhost:/tmp# chmod g+w file.txt
+localhost:/tmp# chmod u-r file.txt
+localhost:/tmp# chmod o+x file.txt
+localhost:/tmp# cat file.txt
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 4.9G      2.3G      2.6G  47% /
+devtmpfs                 91.3M         0     91.3M   0% /dev
+localhost:/tmp# ls -la file.txt
+--w-rw-r-x    1 root     root           186 Feb  5 21:52 file.txt
+localhost:/tmp#
